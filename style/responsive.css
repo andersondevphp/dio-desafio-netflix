@@ -1,0 +1,25 @@
+@media screen and (max-width: 700px) {
+    header .topo, header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filme-principal {
+        background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/matrix-resurrections-mobile.jpg') center;
+    }
+
+    .btn-assistir, .btn-assinar {
+        margin-top: 5px;
+        display: block;
+    }
+
+    .footer-cols {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}
